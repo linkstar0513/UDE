@@ -32,11 +32,11 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="UT_SDL2" targetName="UtCore" />
       <config projectName="UT_SDL2" targetName="UtMath" />
       <config projectName="UT_SDL2" targetName="UtGui" />
-      <config projectName="UT_SDL2" targetName="UtEngine" />
       <config projectName="UT_SDL2" targetName="UT_SDL2" />
+      <config projectName="UT_SDL2" targetName="UtCore" />
+      <config projectName="UT_SDL2" targetName="UtEngine" />
       <config projectName="UT_SDL2" targetName="testmath" />
     </generated>
   </component>
@@ -49,7 +49,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="351a4d6d-4abb-49b6-8bbd-aef543f3f6fc" name="Default" comment="" />
+    <list default="true" id="351a4d6d-4abb-49b6-8bbd-aef543f3f6fc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UtGui/UButton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UtGui/UButton.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <ignored path="$PROJECT_DIR$/cmake-build-relwithdebinfo/" />
@@ -62,12 +66,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="UT_SDL2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="UWidget.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UtGui/UWidget.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
+            <state relative-caret-position="659">
               <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
               <folding>
                 <element signature="e#65#85#0" expanded="true" />
@@ -100,7 +107,7 @@
       <file leaf-file-name="UApp.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UtCore/UApp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-463">
+            <state relative-caret-position="304">
               <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
@@ -127,8 +134,8 @@
       <file leaf-file-name="UModel.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UtEngine/UModel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="380">
+              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="e#89#106#0" expanded="true" />
               </folding>
@@ -148,20 +155,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UButton.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UButton.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UtGui/UButton.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="564">
+              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UButton.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UButton.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UtGui/UButton.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="228">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -181,6 +188,9 @@
       <find>gladLoadGL</find>
       <find>model</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,15 +221,15 @@
         <option value="$PROJECT_DIR$/UtGui/UWidget.h" />
         <option value="$PROJECT_DIR$/UtEngine/UMesh.cpp" />
         <option value="$PROJECT_DIR$/UtEngine/UMesh.h" />
-        <option value="$PROJECT_DIR$/UtGui/UButton.cpp" />
         <option value="$PROJECT_DIR$/include/stb_image_config.h" />
         <option value="$PROJECT_DIR$/UtEngine/UModel.cpp" />
         <option value="$PROJECT_DIR$/UtEngine/UUserInterface.h" />
         <option value="$PROJECT_DIR$/UtEngine/UUserInterface.cpp" />
         <option value="$PROJECT_DIR$/UtCore/UApp.cpp" />
         <option value="$PROJECT_DIR$/UtGui/UWidget.cpp" />
-        <option value="$PROJECT_DIR$/UtEngine/UModel.h" />
         <option value="$PROJECT_DIR$/UtGui/UButton.h" />
+        <option value="$PROJECT_DIR$/UtEngine/UModel.h" />
+        <option value="$PROJECT_DIR$/UtGui/UButton.cpp" />
       </list>
     </option>
   </component>
@@ -243,23 +253,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="UT_SDL2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UT_SDL2" type="462c0819:PsiDirectoryNode" />
+              <item name="UDE" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibShared" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="SwiftSettings" />
@@ -343,11 +353,12 @@
       <workItem from="1531306646864" duration="23080000" />
       <workItem from="1531374197603" duration="1197000" />
       <workItem from="1531387670794" duration="1601000" />
+      <workItem from="1531395286528" duration="364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313315000" />
+    <option name="totallyTimeSpent" value="313679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,18 +374,18 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.29826465" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.29782608" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32844242" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20932755" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20869565" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32934782" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22998933" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891305" visible="true" weight="0.23265742" />
       <window_info anchor="right" id="LuaJ" order="3" weight="0.32977587" />
-      <window_info anchor="bottom" id="TeamCity" order="7" weight="0.3286334" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TeamCity" order="7" weight="0.32826087" />
+      <window_info id="Structure" order="1" sideWeight="0.50108695" side_tool="true" weight="0.23265742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30911064" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50108695" side_tool="true" weight="0.23265742" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -718,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UtCore/UApp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
+        <state relative-caret-position="304">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
@@ -744,9 +755,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UtEngine/UModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#89#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UtGui/UButton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UtGui/UWidget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
+        <state relative-caret-position="659">
           <caret line="187" column="14" selection-start-line="187" selection-start-column="14" selection-end-line="187" selection-end-column="14" />
           <folding>
             <element signature="e#65#85#0" expanded="true" />
@@ -756,25 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UtGui/UButton.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UtEngine/UModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#89#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UtGui/UButton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="564">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
         </state>
       </provider>
     </entry>

@@ -12,10 +12,10 @@ UButton::UButton():UModel(){
     //Vertex vertextemp={glm::vec3(-0.5f, -0.5f, -0.5),glm::vec3(-0.5f, -0.5f, -0.5),glm::vec2(-0.5f, -0.5f)};
 
 //长方形，标题拦
-    vertices.push_back({glm::vec3(-1.0f, -0.8f, -1.0),glm::vec3(0.4f, 0.1f, 0.1f),glm::vec2(0.0f, 0.0f)});
-    vertices.push_back({glm::vec3(-1.0f, 1.0f, -1.0),glm::vec3(0.2f, 0.9f, 0.2f),glm::vec2(0.0f, 1.0f)});
-    vertices.push_back({glm::vec3(1.0f, -0.8f, -1.0),glm::vec3(0.9f, 0.2f, 0.2f),glm::vec2(1.0f, 0.0f)});
-    vertices.push_back({glm::vec3(1.0f, 1.0f, -1.0),glm::vec3(0.3f, 0.3f, 0.3f),glm::vec2(1.0f, 1.0f)});
+    vertices.push_back({glm::vec3(-1.0f, -0.8f, 1.0),glm::vec3(0.4f, 0.1f, 0.1f),glm::vec2(0.0f, 0.0f)});
+    vertices.push_back({glm::vec3(-1.0f, 1.0f, 1.0),glm::vec3(0.2f, 0.9f, 0.2f),glm::vec2(0.0f, 1.0f)});
+    vertices.push_back({glm::vec3(1.0f, -0.8f, 1.0),glm::vec3(0.9f, 0.2f, 0.2f),glm::vec2(1.0f, 0.0f)});
+    vertices.push_back({glm::vec3(1.0f, 1.0f, 1.0),glm::vec3(0.3f, 0.3f, 0.3f),glm::vec2(1.0f, 1.0f)});
 
     //立方体
     //vertices.push_back({glm::vec3(-1.0f, -1.0f, -1.0),glm::vec3(0.4f, 0.1f, 0.1f),glm::vec2(0.0f, 0.0f)});
@@ -42,6 +42,8 @@ UButton::UButton():UModel(){
     textures.push_back(texture1);
 
     meshes.push_back(UMesh(vertices,indices,textures));
+    //采用正投影
+    this->projection=glm::ortho(-1.0f,1.0f,-1.0f,1.0f,-1.0f,1.0f);
 
 
 }
