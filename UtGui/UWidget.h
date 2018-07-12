@@ -40,6 +40,8 @@ public:
     bool is_quit= false;
     bool is_render= true;
 
+    std::vector<UModel> model_vecotrs;
+
     bool is_moving= false;
 
 
@@ -47,7 +49,7 @@ public:
     UCamera camera;
 
     //事件处理
-
+    //窗口系统viewport的宽高，传递到子组件
     int32_t width;
     int32_t height;
 

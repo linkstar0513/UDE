@@ -133,6 +133,10 @@ int UWidget::createWidget() {
     UButton button1;
 
 
+    model_vecotrs.push_back(userInterface);
+    model_vecotrs.push_back(button1);
+
+
     //SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR,
       //                       "Missing file",
         //                     "File is missing. Please reinstall the program.",
@@ -186,9 +190,12 @@ int UWidget::createWidget() {
             userInterface.projection=glm::ortho(-1.0f*float(width)/height,1.0f*float(width)/height,-1.0f,1.0f,-10.0f,100.0f);
             //uishader.setInt("texture_diffuse1",0);
             //userInterface.draw(&uishader);
-           button1.draw(&uishader);
+           //button1.draw(&uishader);
            //ui.draw(&uishader);
             //使用着色器，并设置对应的转换矩阵
+
+            render();
+
 
             models.model=model;
             models.view=view;
@@ -217,6 +224,11 @@ return 0;
 }
 
 int UWidget::render() {
+    UShader uishader("/home/link/CLionProjects/UT_SDL2/resource/uivert.vert",
+                     "/home/link/CLionProjects/UT_SDL2/resource/uifrag.frag");
+    for(uint32_t i=0;i<model_vecotrs.size();i++){
+        model_vecotrs[i].draw(&uishader);
+    }
     return 0;
 }
 

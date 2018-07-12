@@ -45,6 +45,8 @@ UButton::UButton():UModel(){
     //采用正投影
     this->projection=glm::ortho(-1.0f,1.0f,-1.0f,1.0f,-1.0f,1.0f);
 
+    //width=100/
+
 
 }
 
