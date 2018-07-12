@@ -1,0 +1,25 @@
+# Blender MTL File: 'yxa_1.blend'
+# Material Count: 2
+
+newmtl Guld
+Ns 29.411765
+Ka 0.183000 0.183000 0.183000
+Kd 0.964205 1.000000 0.877073
+Ks 0.000000 0.000000 0.000000
+Ke 0.067494 0.070000 0.061395
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /home/link/下载/assimp-3.3.1/test/models/corrosive_med.jpg
+
+newmtl Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm -0.500000 /home/link/下载/assimp-3.3.1/test/models/oak_golden.jpg
+map_Kd /home/link/下载/assimp-3.3.1/test/models/oak_golden.jpg
